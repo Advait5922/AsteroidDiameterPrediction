@@ -1,5 +1,15 @@
 # Asteroid Diameter Prediction
 
+## Introduction
+
+Asteroids, small rocky objects orbiting the Sun in elliptical paths, are remnants from the early stages of our solar system's formation around 4.6 billion years ago. Often referred to as minor planets or planetoids, they vary in size from tiny specks to hundreds of kilometers across. Primarily situated in the asteroid belt between Mars and Jupiter, asteroids can also be found in other parts of the solar system.
+
+Most asteroids exhibit irregular shapes, with only a few approaching a spherical form, often featuring pits or craters. When we discuss the diameter of irregularly shaped asteroids, we typically refer to their __equivalent diameter__. This represents the diameter of a sphere with the same volume as the asteroid, providing a convenient means to compare sizes. However, it's important to note that the equivalent diameter may not precisely reflect the asteroid's actual physical size or shape, occasionally overestimating or underestimating based on its density and form.
+
+Two asteroid classes of particular interest to astronomers and planetary scientists are __NEAs__ (Near-Earth Asteroids) and __PHAs__ (Potentially Hazardous Asteroids). NEAs, coming close to Earth's orbit, have collision potential. PHAs, a subset of NEAs, pose a greater concern due to their proximity and potential for significant damage upon impact.
+
+Diameter prediction holds immense significance, especially in identifying NEAs and PHAs. An asteroid's size influences its interaction with Earth, with smaller ones more likely to burn up in the atmosphere. Predicting diameters aids in assessing potential threats and devising strategies to mitigate harm. Additionally, diameter predictions offer insights into asteroid composition, structure, and evolution, contributing to a deeper understanding of the Solar System's origins.
+
 ## Overview of Problem
 This project endeavors to estimate the sizes of asteroids within our solar system by leveraging various observable characteristics such as absolute magnitude, albedo, distance from the Sun, and orbital parameters. The precise prediction of asteroid sizes is paramount for comprehending their potential impact on Earth and strategizing future space missions dedicated to their study.
 
@@ -39,17 +49,6 @@ MSE scores for all models fell within the range of approximately 1.893 to 5.632,
 __Python Version__: 3.7.12
 
 __Packages__: numpy, pandas, matplotlib, seaborn, sklearn, tensorflow, lightgbm, catboost.
-
-<a id="intro"></a>
-## Introduction
-
-Asteroids, small rocky objects orbiting the Sun in elliptical paths, are remnants from the early stages of our solar system's formation around 4.6 billion years ago. Often referred to as minor planets or planetoids, they vary in size from tiny specks to hundreds of kilometers across. Primarily situated in the asteroid belt between Mars and Jupiter, asteroids can also be found in other parts of the solar system.
-
-Most asteroids exhibit irregular shapes, with only a few approaching a spherical form, often featuring pits or craters. When we discuss the diameter of irregularly shaped asteroids, we typically refer to their __equivalent diameter__. This represents the diameter of a sphere with the same volume as the asteroid, providing a convenient means to compare sizes. However, it's important to note that the equivalent diameter may not precisely reflect the asteroid's actual physical size or shape, occasionally overestimating or underestimating based on its density and form.
-
-Two asteroid classes of particular interest to astronomers and planetary scientists are __NEAs__ (Near-Earth Asteroids) and __PHAs__ (Potentially Hazardous Asteroids). NEAs, coming close to Earth's orbit, have collision potential. PHAs, a subset of NEAs, pose a greater concern due to their proximity and potential for significant damage upon impact.
-
-Diameter prediction holds immense significance, especially in identifying NEAs and PHAs. An asteroid's size influences its interaction with Earth, with smaller ones more likely to burn up in the atmosphere. Predicting diameters aids in assessing potential threats and devising strategies to mitigate harm. Additionally, diameter predictions offer insights into asteroid composition, structure, and evolution, contributing to a deeper understanding of the Solar System's origins.
 
 <a id="prob"></a>
 
